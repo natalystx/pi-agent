@@ -1,0 +1,14 @@
+{
+  "lastChangelogVersion": "0.87.0",
+  "theme": "dark",
+  "defaultProvider": "claude-bridge",
+  "defaultModel": "claude-opus-5",
+  "packages": [
+    "npm:pi-multi-account",
+    "npm:pi-claude-marketplace",
+    "npm:pi-claude-bridge",
+    "npm:pi-pstack",
+    "npm:pi-mcp-adapter"
+  ],
+  "tuiMode": "fullscreen"
+}

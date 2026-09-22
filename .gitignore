@@ -1,0 +1,15 @@
+# secrets
+auth.json
+*oauth*.json
+# runtime state / caches / logs
+models-store.json
+provider-failover-state.json
+provider-failover-debug.log
+mcp-cache.json
+trust.json
+*.bak
+sessions/
+# installed binaries and packages (restored by pi itself)
+install/
+npm/
+bin/
