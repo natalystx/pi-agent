@@ -1,6 +1,6 @@
 {
   "lastChangelogVersion": "0.87.0",
-  "theme": "dark",
+  "theme": "catppuccin-tui-mocha",
   "defaultProvider": "claude-bridge",
   "defaultModel": "claude-opus-5",
   "packages": [
@@ -8,7 +8,9 @@
     "npm:pi-claude-marketplace",
     "npm:pi-claude-bridge",
     "npm:pi-pstack",
-    "npm:pi-mcp-adapter"
+    "npm:pi-mcp-adapter",
+    "npm:pi-catppuccin-tui",
+    "npm:pi-zentui"
   ],
   "tuiMode": "fullscreen"
 }
