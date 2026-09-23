@@ -23,5 +23,6 @@
     "cursor*/*",
     "meta/*"
   ],
-  "defaultThinkingLevel": "high"
+  "defaultThinkingLevel": "high",
+  "followUpMode": "one-at-a-time"
 }

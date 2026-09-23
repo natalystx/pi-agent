@@ -5,6 +5,7 @@ auth.json
 models-store.json
 provider-failover-state.json
 provider-failover-debug.log
+crashes.json
 mcp-cache.json
 trust.json
 *.bak
