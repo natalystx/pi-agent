@@ -1,0 +1,1 @@
+/Users/natalystx/.pi/agent/npm/node_modules/pi-pstack/agents/comment-sicko.md

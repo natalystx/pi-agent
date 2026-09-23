@@ -1,16 +1,27 @@
 {
-  "lastChangelogVersion": "0.87.0",
-  "theme": "catppuccin-tui-mocha",
+  "lastChangelogVersion": "0.87.1",
+  "theme": "catppuccin-tui-macchiato",
   "defaultProvider": "claude-bridge",
-  "defaultModel": "claude-opus-5",
+  "defaultModel": "claude-opus-5-5",
   "packages": [
     "npm:pi-multi-account",
     "npm:pi-claude-marketplace",
     "npm:pi-claude-bridge",
-    "npm:pi-pstack",
+    "git:github.com/natalystx/pi-interactive-subagents",
+    {
+      "source": "npm:pi-pstack",
+      "extensions": []
+    },
     "npm:pi-mcp-adapter",
-    "npm:pi-catppuccin-tui",
-    "npm:pi-zentui"
+    "npm:pi-zentui",
+    "npm:pi-catppuccin-tui"
   ],
-  "tuiMode": "fullscreen"
+  "tuiMode": "fullscreen",
+  "enabledModels": [
+    "claude-bridge/*",
+    "openai-codex*/*",
+    "cursor*/*",
+    "meta/*"
+  ],
+  "defaultThinkingLevel": "high"
 }

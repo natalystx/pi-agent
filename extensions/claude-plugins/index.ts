@@ -223,15 +223,19 @@ export default function claudeMarketplaceSkills(pi: ExtensionAPI) {
           ? `[claude-marketplace-skills] Loaded ${skillCount} skill file${skillCount === 1 ? "" : "s"} and ${promptCount} command file${promptCount === 1 ? "" : "s"} from ${MARKETPLACES_DIR}`
           : `[claude-marketplace-skills] No enabled skill or command files found under ${MARKETPLACES_DIR}`;
 
-      console.log(`${message}\n`);
+      // Never write raw text to stdout while the TUI owns the screen: it
+      // clobbers the input editor. Use the UI notifier there instead.
       if (ctx.hasUI) {
         ctx.ui.notify(message, skillCount > 0 || promptCount > 0 ? "info" : "warning");
+      } else {
+        console.error(message);
       }
     } catch (error) {
       const message = `[claude-marketplace-skills] Failed to discover resources: ${(error as Error).message}`;
-      console.log(`${message}\n`);
       if (ctx.hasUI) {
         ctx.ui.notify(message, "error");
+      } else {
+        console.error(message);
       }
     }
   });

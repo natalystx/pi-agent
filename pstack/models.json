@@ -1,26 +1,26 @@
 {
   "version": 1,
   "roles": {
-    "feature, refactoring": "claude-bridge/claude-opus-5:medium",
-    "bug-fix": "claude-bridge/claude-fable-5-1:low",
-    "perf-issue": "claude-bridge/claude-fable-5-1:low",
-    "hillclimb": "claude-bridge/claude-fable-5-1:low",
-    "hardest tasks": "claude-bridge/claude-fable-5-1:low",
+    "feature, refactoring": "claude-bridge/claude-opus-5:high",
+    "bug-fix": "claude-bridge/claude-fable-5-1:medium",
+    "perf-issue": "claude-bridge/claude-opus-5:high",
+    "hillclimb": "claude-bridge/muse-spark-1.3-contributor:high",
+    "hardest tasks": "claude-bridge/claude-fable-5-1:medium",
     "judgment and prose": "openai-codex/gpt-5.6-sol:high",
     "how explorer": "meta/muse-spark-1.3-contributor:high",
-    "how explainer": "openai-codex/gpt-5.6-sol:high",
-    "how critics": "openai-codex/gpt-5.6-terra:high",
-    "why investigators": "meta/muse-spark-1.3-contributor:high",
-    "why synthesizer": "openai-codex/gpt-5.6-sol:high",
+    "how explainer": "openai-codex/gpt-6-sol:high",
+    "how critics": "openai-codex/gpt-6-sol:high",
+    "why investigators": "openai-codex/gpt-6-luna:max",
+    "why synthesizer": "openai-codex/gpt-6-luna:max",
     "reflect tooling": "claude-bridge/claude-sonnet-5:high",
-    "reflect judgment, divergent, synthesizer": "openai-codex/gpt-5.6-sol:high",
+    "reflect judgment, divergent, synthesizer": "openai-codex/gpt-6-sol:high",
     "arena runners": [
-      "claude-bridge/claude-opus-5:medium",
-      "openai-codex/gpt-5.6-terra:high",
+      "claude-bridge/claude-sonnet-5:high",
+      "openai-codex/gpt-6-luna:max",
       "meta/muse-spark-1.3-contributor:high"
     ],
     "arena cross-judge pool": [
-      "claude-bridge/claude-fable-5-1:low",
+      "claude-bridge/claude-opus-5-5:high",
       "openai-codex/gpt-5.6-terra:high",
       "meta/muse-spark-1.3-contributor:high"
     ],
@@ -31,9 +31,9 @@
       "meta/muse-spark-1.3-contributor:high"
     ],
     "interrogate reviewers": [
-      "claude-bridge/claude-fable-5-1:low",
-      "openai-codex/gpt-5.6-terra:high",
-      "meta/muse-spark-1.3-contributor:high"
+      "claude-bridge/claude-fable-5-1:medium",
+      "openai-codex/gpt-6-astra:low",
+      "claude-bridge/claude-opus-5:high",
     ]
   }
 }

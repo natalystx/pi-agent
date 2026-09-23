@@ -13,3 +13,5 @@ sessions/
 install/
 npm/
 bin/
+# git packages cloned by pi (restored from settings.json)
+git/
