@@ -2,8 +2,5 @@
   "askClaude": {
     "enabled": true
   },
-  "startupNoticeShown": "2026-09-22",
-  "provider": {
-    "pathToClaudeCodeExecutable": "/Users/natalystx/.local/bin/claude"
-  }
+  "startupNoticeShown": "2026-09-22"
 }

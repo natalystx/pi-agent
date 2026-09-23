@@ -6,7 +6,7 @@
   "packages": [
     "npm:pi-multi-account",
     "npm:pi-claude-marketplace",
-    "npm:pi-claude-bridge",
+    "git:github.com/elidickinson/pi-claude-bridge",
     "git:github.com/natalystx/pi-interactive-subagents",
     {
       "source": "npm:pi-pstack",

@@ -1,1 +1,1 @@
-/Users/natalystx/.pi/agent/npm/node_modules/pi-pstack/agents/poteto-agent.md
+../npm/node_modules/pi-pstack/agents/poteto-agent.md
